@@ -1,9 +1,10 @@
-import express from "express";
-import BodyParser from "body-parser";
-import routes from "./src/routes/hireDevRoutes";
-import cors from "cors";
-import {connectDB} from './dbAuth';
-import path from "path";
+const express = require("express");
+const bodyParser = require("body-parser");
+const routes = require("./src/routes/hireDevRoutes");
+const cors = require("cors");
+const { connectDB } = require("./dbAuth");
+const path = require("path");
+
 
 const app = express();
 
